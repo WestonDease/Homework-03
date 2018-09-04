@@ -1,0 +1,7 @@
+HomeWork 03 write-up
+
+A function is a set of code that can be called within other parts of code to be executed in a process called invokation. Its like a tool that multiple people in a building project can use.
+The function will take certain parameters when it is called. It is like calling a store to order food. The store will only let you buy certain types of food but will give you whatever you order of things they can make.
+When a function is called the specific values given to the function are called arguments. Functions always return a value when they are called. Some will return undefined if not given a normal return statement or
+one is not reached. A function can be hoisted to the "top" of a program if it is not an expression, meaning that the function can be called before it is defined. It is like a flag that sticks out of the program to the compiler
+telling it to give priority to that code in compilation. 
