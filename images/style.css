@@ -1,0 +1,139 @@
+body {
+    height: 100vh;
+    padding: 10px;
+    background-color: black;
+}
+
+nav {
+    height: 100%;
+    padding: 0px;
+    padding-bottom: 0px;
+    color: white;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+main {
+    height: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px repeat(2, 1fr);
+}
+
+header {
+    color: black;
+    display: grid;
+    position: static;
+    padding-top: 25px;
+    padding-left: 50px; 
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+.boxHeader {
+    font-family: 'EB Garamond';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: white;
+    color: black;
+
+}
+
+.box {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Oswald';
+    color: white;
+}
+
+h2 {
+    font-family: 'Sonsie One';
+    color: white;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    text-align: center;
+}
+
+.portrait {
+    background-image: url(images/13086700_10208775983175462_7096852271993808909_o.jpg);
+    background-position: center;
+    height: 100%;
+}
+
+.boats {
+    background-image: url(images/github-mark.png);
+    background-position: top;    
+}
+
+.building {
+    background-image: url(images/index.png);
+}
+
+.human {
+    background-image: url(images/cfPdqBP.png);
+}
+
+.tree {
+    background-image: url(images/apple-touch-icon@2.png);
+}
+
+.extra {
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+
+    nav {
+        height: unset;
+        padding: 150px;
+        padding-top: 90px;
+        color: white;
+        display: grid;
+        grid-gap: 3px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .extra {
+        display: block;
+    }
+
+    .architecture {
+        background-image: url(images/13086700_10208775983175462_7096852271993808909_o.jpg);
+    }
+
+    .sand {
+        background-image: url(images/calenar.png);
+    }
+
+    .bridge {
+        background-image: url(images/facebell.png);
+        background-position: top;
+    }
+    
+    .camera {
+        background-image: url(images/3655.png);
+        background-position: top;
+    }
+}
